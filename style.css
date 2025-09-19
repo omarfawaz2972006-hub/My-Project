@@ -1,0 +1,139 @@
+body{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.home{
+    background-image: url(../images/laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+/* start of Navigation bar */
+.logo-image{
+    width: 100px;
+    margin-top: 27px;
+    margin-left: 70px;    
+}
+.Navigationbar{
+    display: flex;
+    border-radius: 95px;
+    background-color: white;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.Navigationbar ul{
+    list-style: none;
+    padding: 0%;
+    display: flex;
+}
+.Navigationbar ul li{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* End of Navigationbar*/
+
+/* start of Header  */
+
+.Header{
+    text-align: center;
+    margin-top: 240px;
+    display: flex;
+    flex-flow: column;
+
+}
+.Header-h1,.Header-p,.Header-a{
+    padding: 20px;
+    color: aliceblue;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.Header-a{
+    background-color: rgb(142, 117, 8);
+    width: 8%;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+
+/* End of Header  */
+
+/* start of feature*/
+
+.Feature{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    margin-top: 160px;
+    margin-bottom: 30px;
+}
+  
+.Feature div{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(250, 250, 249);
+    width: 20%;
+    border-radius: 10px;
+}
+.Feature div img{
+    background-color: rgb(2, 51, 16);
+    border-radius: 40px;
+    width: 60px;
+}
+
+/* end of feature   */
+
+
+/* start of Why Us  */
+.whyus{
+    padding: 30px;
+    display: flex;
+    flex-flow: column;
+}
+.whyus .whyus1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    margin-top: 120px;
+}
+.whyus .whyus1 div{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    margin-top: 119px;
+    width: 30%;
+
+}
+
+.whyus .whyus2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    margin-top: 120px;
+}
+.whyus .whyus2 div{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    margin-top: 119px;
+    width: 30%;
+
+}
+
+
+
+
+
+/* end of why us  */
+
+
+
